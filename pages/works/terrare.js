@@ -13,7 +13,7 @@ const Work = () => {
           <Meta ml={1}>En cour</Meta>
         </Title>
         <P>
-          Une marketplace NFTs mettant en relation des investisseurs, des organisations environnementales et des artistes engagés. C'est mon projet d'étude, sur lequel je travaille avec 6 autres collègues
+          Une marketplace NFTs mettant en relation des investisseurs, des organisations environnementales et des artistes engagés. C&apos;est mon projet d&apos;étude, sur lequel je travaille avec 6 autres collègues
         </P>
         <List ml={4} my={4}>
           <ListItem>

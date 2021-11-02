@@ -13,11 +13,11 @@ const NotFound = () => {
   return (
     <Container maxW="xl" mt={3}>
       <Heading as="h1">Vous vous êtes perdus!</Heading>
-      <Text>La page que vous cherchez n'existe pas.</Text>
+      <Text>La page que vous cherchez n&apos;existe pas.</Text>
       <Divider my={6} />
       <Box my={6} align="center">
         <NextLink href="/">
-          <Button colorScheme="teal">Retour a l'accueil</Button>
+          <Button colorScheme="teal">Retour a l&apos;accueil</Button>
         </NextLink>
       </Box>
     </Container>
