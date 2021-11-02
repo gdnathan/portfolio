@@ -5,7 +5,10 @@ import {
   Heading,
   Image,
   Link,
+  List,
+  ListItem,
   Button,
+  Icon,
   useColorModeValue
 } from '@chakra-ui/react'
 import Layout from "../components/layouts/article"
@@ -13,11 +16,16 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import {
+  IoLogoTwitter,
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
     <Layout>
-      <Container>
+      <Container maxW="xl">
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.800', 'whiteAlpha.200')}
@@ -56,7 +64,7 @@ const Page = () => {
           </Heading>
 
           <Paragraph>
-            Étudiant de 20 ans à Epitech Bordeaux, j'étudie avec l'ardeur de mes ambitions, tout en cultivant ma passion pour l'informatique, en vue de l'optention de mon titre d'Expert en Technologie de L'information. Je suis également l'un des créateurs de {' '}
+            Étudiant de 20 ans à Epitech Bordeaux, j&apos;étudie avec l&apos;ardeur de mes ambitions, tout en cultivant ma passion pour l&apos;informatique, en vue de l&apos;optention de mon titre d&apos;Expert en Technologie de L&apos;information. Je suis également l&apos;un des créateurs de {' '}
             <NextLink href="/works/terrare">
               <Link>Terrare</Link>
             </NextLink>
@@ -80,18 +88,58 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Rejoins EPITECH, l'école de l'innovation et de l'expertise informatique afin de décrocher un Titre RNCP d'expert en informatique (Niveau 1)
+            Rejoins EPITECH, l&apos;école de l&apos;innovation et de l&apos;expertise informatique afin de décrocher un Titre RNCP d&apos;expert en informatique (Niveau 1)
           </BioSection>
           <BioSection>
-            <BioYear>2021 à aujourd'hui</BioYear>
+            <BioYear>2021 à aujourd&apos;hui</BioYear>
             Travaille en tant que freelance
           </BioSection>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Ce que j'aime
+            Ce que j&apos;aime
           </Heading>
           <Paragraph>Innovation, Escalade, Vim, Musique, Jeux vidéos, Parkour</Paragraph>
+        </Section>
+        <Section delay="0.3">
+          <Heading as="h3" variant="section-title">
+            Aussi présent sur les réseaux!
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/gdnathan" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  Github
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/NathanGD" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  Twitter
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/nathan-gardet-derc/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  Linkedin
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>

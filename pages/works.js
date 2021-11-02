@@ -13,9 +13,9 @@ import thumbTerrare from '../public/images/work/Terrare.png'
 const Works = () => {
   return (
     <Layout>
-      <Container>
+      <Container maxW="xl">
         <Heading as="h3" fontSize={20} mb={4}>
-          Traveaux
+          Travaux
         </Heading>
 
         <SimpleGrid columns={[1, 1, 1]} gap={6}>
