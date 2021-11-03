@@ -76,15 +76,15 @@ const Navbar = props => {
                 variant="outline"
                 aria-label="Options" />
               <MenuList>
-                <NextLink href="/about" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
+                {/* <NextLink href="/about" passHref> */}
+                {/*   <MenuItem as={Link}>About</MenuItem> */}
+                {/* </NextLink> */}
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
+                {/* <NextLink href="/posts" passHref> */}
+                {/*   <MenuItem as={Link}>Posts</MenuItem> */}
+                {/* </NextLink> */}
               </MenuList>
             </Menu>
           </Box>
