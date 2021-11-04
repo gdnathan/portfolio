@@ -5,6 +5,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => {
+
   return (
     <Layout title="Terrare">
       <Container maxW="xl">
@@ -13,7 +14,19 @@ const Work = () => {
           <Meta ml={1}>En cour</Meta>
         </Title>
         <P>
-          Une marketplace NFTs mettant en relation des investisseurs, des organisations environnementales et des artistes engagés. C&apos;est mon projet d&apos;étude, sur lequel je travaille avec 6 autres collègues
+          Une marketplace NFTs mettant en relation des investisseurs,
+          des organisations environnementales et des artistes engagés.
+          C&apos;est mon projet d&apos;étude, sur lequel je travaille avec 6 autres collègues.
+          <br />
+          <br />
+          Nous avons pour mission d'améliorer le côté écologie des NFT !
+          Le but est de proposer une marketplace de petites parcelles virtuelles sur lesquelles vous pourriez enchérir.
+          Ces parcelles représenteraient de vrais terrains sur lesquels nous nous engagerions à reforester.
+          <br />
+          <br />
+          Vous pouvez suivre l'avancement du projet sur notre page
+          <Link href="https://www.linkedin.com/company/76188769"> LinkedIn</Link>
+          , ou nous postons régulièrement.
         </P>
         <List ml={4} my={4}>
           <ListItem>
