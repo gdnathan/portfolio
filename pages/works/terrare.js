@@ -25,7 +25,7 @@ const Work = () => {
           <br />
           <br />
           Vous pouvez suivre l'avancement du projet sur notre page
-          <Link href="https://www.linkedin.com/company/76188769"> LinkedIn</Link>
+          <Link href="https://www.linkedin.com/company/76188769" target="_blank"> LinkedIn</Link>
           , ou nous postons régulièrement.
         </P>
         <List ml={4} my={4}>
@@ -35,7 +35,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Site web</Meta>
-            <Link href="terrare.io">terrare.io<ExternalLinkIcon /></Link>
+            <Link href="https://www.terrare.io" target="_blank">terrare.io<ExternalLinkIcon /></Link>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
