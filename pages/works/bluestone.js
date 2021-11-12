@@ -17,7 +17,7 @@ const Work = () => {
             en marketing.
       <br />
       <br />
-      C'est à travers ce site que nos clients entrent en premier contact avec nous, et découvrent nos offres.
+      C&apos;est à travers ce site que nos clients entrent en premier contact avec nous, et découvrent nos offres.
         </P>
         <List ml={4} my={4}>
           <ListItem>
