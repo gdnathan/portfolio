@@ -96,7 +96,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Travaille pour la première fois dans une entreprise informatique, et découvre le développement web, pendant 6 mois sur un projet d'envergure.
+            Travaille pour la première fois dans une entreprise informatique, et découvre le développement web, pendant 6 mois sur un projet d&aposenvergure.
           </BioSection>
           <BioSection>
             <BioYear>2021 à aujourd&apos;hui</BioYear>
