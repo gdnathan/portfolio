@@ -60,7 +60,7 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Travaux
+            Biographie
           </Heading>
 
           <Paragraph>
@@ -80,19 +80,27 @@ const Page = () => {
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Chroniques
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
             Né a Langon, France
           </BioSection>
           <BioSection>
+            <BioYear>2016</BioYear>
+            Découvre le monde de l&apos;informatique au lycée, et développe une passion pour le développement.
+          </BioSection>
+          <BioSection>
             <BioYear>2019</BioYear>
-            Rejoins EPITECH, l&apos;école de l&apos;innovation et de l&apos;expertise informatique afin de décrocher un Titre RNCP d&apos;expert en informatique (Niveau 1)
+            Rejoins EPITECH, l&apos;école de l&apos;innovation et de l&apos;expertise informatique afin de décrocher un Titre RNCP d&apos;expert en informatique (Niveau 1).
+          </BioSection>
+          <BioSection>
+            <BioYear>2020</BioYear>
+            Travaille pour la première fois dans une entreprise informatique, et découvre le développement web, pendant 6 mois sur un projet d'envergure.
           </BioSection>
           <BioSection>
             <BioYear>2021 à aujourd&apos;hui</BioYear>
-            Travaille en tant que freelance
+            Travaille en tant que freelance, sur de nombreuses technologies.
           </BioSection>
         </Section>
         <Section delay={0.2}>
