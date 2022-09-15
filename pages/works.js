@@ -10,24 +10,24 @@ import { WorkGridItem } from '../components/grid-item'
 import Layout from "../components/layouts/article"
 import thumbTerrare from '../public/images/work/Terrare.png'
 import thumbBlueStone from '../public/images/work/Bluestone.png'
+import thumbKabocha from '../public/images/work/Kabocha.png'
+import thumbTutorials from '../public/images/work/Substrate Tutorials.png'
 
 const Works = () => {
   return (
     <Layout>
       <Container maxW="xl">
         <Heading as="h3" fontSize={20} mb={4}>
-          Travaux
+          My works and contributions
         </Heading>
 
         <SimpleGrid columns={[1, 1, 1]} gap={6}>
           <Section>
-            <WorkGridItem id="terrare" title="Terrare" thumbnail={thumbTerrare}>
-              Une marketplace NFTs mettant en relation des investisseurs, des organisations environnementales et des artistes engagés.
+            <WorkGridItem id="kabocha" title="Kabocha" thumbnail={thumbKabocha}>
+              A Substrate blockchain aiming at creative projects that make waves, retaining genesis assets, shares and rights in the projects. Like a Web3 version of Disney.
             </WorkGridItem>
-          </Section>
-          <Section>
-            <WorkGridItem id="bluestone" title="BlueStone" thumbnail={thumbBlueStone}>
-              Un site de présentation de BlueStone, une association de deux freelances web et marketing
+            <WorkGridItem id="substrate_tutorials" title="Substrate tutorials" thumbnail={thumbTutorials}>
+              A series of exercices for developers willing to learn the basics of Substrate development and broaden their skillsets through real-world use cases.
             </WorkGridItem>
           </Section>
         </SimpleGrid>

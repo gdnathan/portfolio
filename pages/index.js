@@ -32,7 +32,7 @@ const Page = () => {
           p={3}
           mb={6}
           align="center">
-          Bonjour! Je suis un développeur web basé a Bordeaux!
+          Hi ! I am a blockchain developper, currently in Dublin, Irland !
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Nathan Gardet-Derc
             </Heading>
-            <p>Développeur software & web</p>
+            <p>Blockchain developper - Rust & Solidity</p>
           </Box>
           <Box
             flexShrink={0}
@@ -60,58 +60,55 @@ const Page = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Biographie
+            Biography
           </Heading>
 
           <Paragraph>
-            Étudiant de 20 ans à Epitech Bordeaux, j&apos;étudie avec l&apos;ardeur de mes ambitions, tout en cultivant ma passion pour l&apos;informatique, en vue de l&apos;optention de mon titre d&apos;Expert en Technologie de L&apos;information. Je suis également l&apos;un des créateurs de {' '}
-            <NextLink href="/works/terrare">
-              <Link>Terrare</Link>
-            </NextLink>
-            .
+            21 years old computer science student @ Dublin City University, I am passionated about CS, and more particulary, blockchain. I developped interest into the subject in the begining of 2021, and six months laster, started actually working on blockchains. I am one of the strong beliver that one day, blockchain technologie will be wildly used, decentralisation will be a standard, and decentralized cryptocurrency, like Bitcoin, will become the true "peoples's currency".
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                Mon portfolio
+                My portfolio
               </Button>
             </NextLink>
           </Box>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Chroniques
+            My life
           </Heading>
           <BioSection>
             <BioYear>2001</BioYear>
-            Né a Langon, France
+            Born in Langon, in the south-west of France.
           </BioSection>
           <BioSection>
             <BioYear>2016</BioYear>
-            Découvre le monde de l&apos;informatique au lycée, et développe une passion pour le développement.
+            Discovered informatic, started developping an interest, as my friends were talking how great they were as "hackers".
           </BioSection>
           <BioSection>
             <BioYear>2019</BioYear>
-            Rejoins EPITECH, l&apos;école de l&apos;innovation et de l&apos;expertise informatique afin de décrocher un Titre RNCP d&apos;expert en informatique (Niveau 1).
+            I joined EPITECH, a developper school deliveing a master degree, where I could finaly transform this interest and passion into actual lines of code.
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Travaille pour la première fois dans une entreprise informatique, et découvre le développement web, pendant 6 mois sur un projet d&aposenvergure.
+            I worked for the first time in a entreprise, as a web developper, discovering the professional world.
           </BioSection>
           <BioSection>
-            <BioYear>2021 à aujourd&apos;hui</BioYear>
-            Travaille en tant que freelance, sur de nombreuses technologies.
+            <BioYear>2021</BioYear>
+            Started to take interest in blockchain technologies, reading books, making exercices... and learning rust, that became my favourite programmation language
           </BioSection>
         </Section>
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Ce que j&apos;aime
+            My interests
           </Heading>
-          <Paragraph>Innovation, Escalade, Vim, Musique, Jeux vidéos, Parkour</Paragraph>
+          <Paragraph>Innovation, Rust, Neovim, Blockchain (obviously), Space</Paragraph>
+          <Paragraph>And Sports ! Climbing, MMA, Subdiving, Caving, Airsoft... I like moving :)</Paragraph>
         </Section>
         <Section delay="0.3">
           <Heading as="h3" variant="section-title">
-            Aussi présent sur les réseaux!
+            Do not hesitate to add me on my networks !
           </Heading>
           <List>
             <ListItem>

@@ -39,6 +39,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
         <Text fontSize={14}>{children}</Text>
       </LinkBox>
     </NextLink>
+    <br />
+    <br />
   </Box>
 )
 
