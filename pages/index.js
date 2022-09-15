@@ -64,7 +64,7 @@ const Page = () => {
           </Heading>
 
           <Paragraph>
-            21 years old computer science student @ Dublin City University, I am passionated about CS, and more particulary, blockchain. I developped interest into the subject in the begining of 2021, and six months laster, started actually working on blockchains. I am one of the strong beliver that one day, blockchain technologie will be wildly used, decentralisation will be a standard, and decentralized cryptocurrency, like Bitcoin, will become the true &quot;peoples&apos;s currency".
+            21 years old computer science student @ Dublin City University, I am passionated about CS, and more particulary, blockchain. I developped interest into the subject in the begining of 2021, and six months laster, started actually working on blockchains. I am one of the strong beliver that one day, blockchain technologie will be wildly used, decentralisation will be a standard, and decentralized cryptocurrency, like Bitcoin, will become the true &quot;peoples&apos;s currency&quot;.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
